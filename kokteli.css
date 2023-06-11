@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background-color: transparent;
+    padding-top: 100px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px #333;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.hero {
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+nav {
+    background-color: #f26924;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+}
+
+.drugalista{
+    flex-direction: column;
+}
+
+li {
+    margin: 0 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 1px 1px #333;
+    border-right: 1px solid white;
+    padding-right: 10px;
+    border-left: 1px solid white;
+    padding-left: 10px;
+}
+
+a:hover {
+    color: red;
+    text-shadow: 1px 1px #333;
+}
+
+.slika {
+    background-image: url("slika1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: calc(100vh - 80px);
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+article {
+    float: left;
+    width: 70%;
+    margin-right: 5%;
+    padding: 20px;
+    margin-top:20px;
+    padding-top:20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    padding: 20px;
+    margin-top:20px;
+    padding-top:20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+section {
+    float: left;
+    width: 100%;
+    margin-right: 5%;
+    padding: 20px;
+    margin-top:20px;
+    padding-top:20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+
+footer {
+    background-color: orange;
+    height: 20vh;
+    margin-top:850px;
+    text-align:center;
+    font-size:30px;
+    padding-top:25px;
+  }
+  
+.footer-container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+  
+.footer-text {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.prijava{
+    display: flex;
+    flex-direction: row;
+}
+#login-btn {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left:40px;
+    padding: 10px 20px;
+    background-color: #f26924;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 2;
+}
+
+#register-btn {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right:100px;
+    padding: 10px 20px;
+    background-color: #f26924;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1;
+}
+  
+#login-btn:hover, #register-btn:hover {
+    background-color: #e55f1b;
+}
+
+#magicslika{
+    width:250px;
+    height:200px;
+}

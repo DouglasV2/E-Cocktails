@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<korisnici>
+  <korisnik>
+    <korisnicko_ime>Matija</korisnicko_ime>
+    <lozinka>Vrijeme245</lozinka>
+  </korisnik>
+  <korisnik>
+    <korisnicko_ime>Ivan</korisnicko_ime>
+    <lozinka>password456</lozinka>
+  </korisnik>
+  <korisnik>
+    <korisnicko_ime>Bruno</korisnicko_ime>
+    <lozinka>lozinka123</lozinka>
+  </korisnik>
+  <korisnik>
+    <korisnicko_ime>Fran</korisnicko_ime>
+    <lozinka>password456</lozinka>
+  </korisnik>
+<korisnik><korisnicko_ime>Bruno</korisnicko_ime><lozinka>NekaLozinka</lozinka></korisnik>
+  <korisnik>
+    <korisnicko_ime>admin</korisnicko_ime>
+    <lozinka>adminovic</lozinka>
+  </korisnik>
+<korisnik><korisnicko_ime>Dorijan</korisnicko_ime><lozinka>Dorijan123</lozinka></korisnik></korisnici>

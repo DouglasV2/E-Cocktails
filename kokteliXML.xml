@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="kokteliXSL.xsl"?>
+<cocktails>
+  <cocktail>
+    <name>Long Island Iced Tea</name>
+    <image>LongIsland.jpg</image>
+    <price>10</price>
+    <ingredients>
+      <ingredient>Tequila</ingredient>
+      <ingredient>Vodka</ingredient>
+      <ingredient>White rum</ingredient>
+      <ingredient>Gin</ingredient>
+      <ingredient>Lemon Juice</ingredient>
+    </ingredients>
+    <year>1970s</year>
+  </cocktail>
+  
+  <cocktail>
+    <name>Mojito</name>
+    <image>mojito.jpg</image>
+    <price>12</price>
+    <ingredients>
+      <ingredient>White rum</ingredient>
+      <ingredient>Mint</ingredient>
+      <ingredient>Lime juice</ingredient>
+      <ingredient>Soda water</ingredient>
+    </ingredients>
+    <year>16th century</year>
+  </cocktail>
+  
+  <cocktail>
+    <name>Cosmopolitan</name>
+    <image>cosmopolitan.jpg</image>
+    <price>11</price>
+    <ingredients>
+      <ingredient>Orange juice</ingredient>
+      <ingredient>Vodka</ingredient>
+      <ingredient>Lime juice</ingredient>
+    </ingredients>
+    <year>1886</year>
+  </cocktail>
+  
+  <cocktail>
+    <name>Martini</name>
+    <image>martini.jpg</image>
+    <price>15</price>
+    <ingredients>
+      <ingredient>Vermouth</ingredient>
+      <ingredient>Vodka or Gin</ingredient>
+    </ingredients>
+    <year>1862</year>
+  </cocktail>
+  
+  <cocktail>
+    <name>Moscow Mule</name>
+    <image>moscowmule.jpg</image>
+    <price>10</price>
+    <ingredients>
+      <ingredient>Ginger beer</ingredient>
+      <ingredient>Vodka</ingredient>
+      <ingredient>Lime Juice</ingredient>
+    </ingredients>
+    <year>1940s</year>
+  </cocktail>
+  
+  <cocktail>
+    <name>Daiquiri</name>
+    <image>daiquiri.jpg</image>
+    <price>10</price>
+    <ingredients>
+      <ingredient>White rum</ingredient>
+      <ingredient>Lime juice</ingredient>
+      <ingredient>Syrup</ingredient>
+    </ingredients>
+    <year>19th century</year>
+  </cocktail>
+</cocktails>

@@ -1,0 +1,119 @@
+body {
+    background-image: url('summer.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    color: orange;
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+}
+
+.navigacija {
+    flex-direction: column;
+    align-items: center;
+    width:50%;
+    text-align: center;
+    margin:0 auto;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 1px 1px #333;
+    border-right: 1px solid white;
+    padding-right: 10px;
+    border-left: 1px solid white;
+    padding-left: 10px;
+}
+
+a:hover {
+    color: red;
+    text-shadow: 1px 1px #333;
+}
+
+nav {
+    background-color: #f26924;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+}
+
+.lista{
+    margin-top:60px;
+}
+
+span{
+    font-weight:bold;
+    font-size:40px;
+    color:white;
+}
+
+.naslov{
+    margin-top:50px;
+    text-align: center;
+}
+
+img{
+    width:200px;
+    height:200px;
+}
+
+h3{
+    color:black;
+    font-size:30px;
+}
+
+h2{
+    color:black;
+    font-weight:bold;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+  
+.image-row {
+    display: flex;
+   
+}
+  
+.image-column {
+    flex: 1;
+    text-align: center;
+}
+  
+img {
+    width: 80%;
+    max-width: 300px;
+    height: auto;
+}
+
+p{
+    color: white;
+    font-weight:bold;
+    font-size:20px;
+}
+
+ul{
+    color: white;
+    font-weight:bold;
+    font-size:20px;
+}
+
